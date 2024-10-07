@@ -1,0 +1,95 @@
+:root {
+  --background: red;
+  --foreground: darkblue;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: navajowhite;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+.pink{
+  background-color: aqua;
+  align-content: center;
+  text-align: center;
+  text-decoration: solid;
+}
+
+.maroon{
+  background-color: aquamarine;
+  align-content: center;
+  text-align: center;
+  text-decoration: solid;
+}
+ .red{
+  background: darkgoldenrod;
+  background-color: rgb(255, 221, 0);
+  align-content: center;
+  text-align: center;
+  text-decoration: underline;
+ }
+
+ .gold{
+  background: cyan;
+  background-color: magenta;
+  align-content: center;
+  text-align: center;
+  text-decoration: underline;
+ }
+
+ .blue{
+  background: darkorange;
+  background-color: yellow;
+  align-content: center;
+  text-align: center;
+  text-decoration: underline;
+ }
+
+ .yellow{
+  background: rgb(226, 43, 43);
+  background-color: greenyellow;
+  align-content: center;
+  text-align: center;
+  text-decoration: underline;
+ }
+
+ .green{
+  background: gold;
+  background-color: white;
+  align-content: center;
+  text-align: center;
+  text-decoration: underline;
+ }
